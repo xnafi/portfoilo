@@ -14,7 +14,7 @@ h1 {
     font-size: 45px;
 }
 
-#name-special {
+.name-special {
     color: orange;
 }
 
@@ -72,6 +72,7 @@ h1 {
     height: 100vh;
     width: 100vw;
 
+
 }
 
 .sec-1-div-1 {
@@ -91,4 +92,38 @@ h1 {
     height: 100%;
     max-width: 600px;
     padding: 60px 20px;
+}
+.sec-2{
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    width: 100vw;
+    align-items: center;
+    justify-content: center;
+    align-items: center;
+}
+.sec-2-main{
+    display: flex;
+    flex-direction: row;
+    height: 100vh;
+    width: 100vw;
+    justify-content: space-around;
+   
+    
+}
+.sec-2-div1{
+    width: 30%;
+    height: 45%;
+    padding: 20px;
+    border-left: 4px solid blue;
+    box-shadow: 10px 5px 10px 8px #888888;
+    border-radius: 2%;
+}
+.sec-2-div2{
+    width: 30%;
+    height: 45%;
+    padding: 20px;
+    border-left: 4px solid rgb(0, 255, 76);
+    box-shadow: 10px 5px 10px 8px #888888;
+    border-radius: 2%;
 }
